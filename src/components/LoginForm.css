@@ -1,0 +1,61 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  background: #abcdce;
+  font-family: rubik, sans-serif;
+}
+h3 {
+  padding: 35px 35px 0;
+  font-weight: 300;
+}
+.main-lgnform {
+  padding: 20px;
+}
+.main-login {
+  background: rgb(241, 241, 241);
+  width: 500px;
+  margin: 65px auto;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  border-radius: 4px;
+  box-shadow: 0 2px 25px rgb(0 0 0 / 20%);
+}
+
+.email-lgn {
+  font-size: 16px;
+  display: block;
+  font-family: rubik, sans-serif;
+  width: 100%;
+  padding: 10px 1px;
+  border: 0;
+  border-bottom: 1px solid #747474;
+  outline: none;
+  -webkit-transition: all 0.2s;
+  /* transition: all .2s; */
+  /* padding: 12px 5px; */
+}
+
+.pass-lgn {
+  font-size: 16px;
+  display: block;
+  font-family: rubik, sans-serif;
+  width: 100%;
+  padding: 10px 1px;
+  border: 0;
+  border-bottom: 1px solid #747474;
+  outline: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  /* padding: 12px 5px; */
+}
+
+.lgn-btn {
+  padding: 12px 5px;
+}
